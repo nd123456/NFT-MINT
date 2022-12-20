@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import abi from './abi';
 
 function App() {
-
+  /* eslint-disable no-unused-vars */
   const [isMetamaskInstalled, setisMetamaskInstalled] = useState(false);
   const [accountAddress, setAccountAddress] = useState(null);
   const [accountBalance, setAccountBalance] = useState(null);
@@ -16,6 +16,7 @@ function App() {
   const [network, setNetwork] = useState(null);
   const [status, setStatus] = useState("");
   const [isDisabled, setIsDisabled] = useState(false);
+  /* eslint-enable no-unused-vars */
 
   const [uri, setUri] = useState("");
   const [tokens, setTokens] = useState([]);
