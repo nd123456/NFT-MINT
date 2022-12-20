@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
   return (
@@ -6,14 +6,10 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <p>Made With ❤️ By Manidhar kodurupaka</p>
+            <p>Made By Namya Dimri for BOBDAO Internship 2022</p>
           </div>
-          <div className="col-md-6 text-end">
-           <span style={{ fontSize: 30 }}><i className="fa fa-facebook"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <span style={{ fontSize: 30 }}><i className="fa fa-twitter"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <span style={{ fontSize: 30 }}><i className="fa fa-instagram"></i></span>
-          </div>
-        </div><hr />
+        </div>
+        <hr />
       </div>
     </section>
   );
