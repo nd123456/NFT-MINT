@@ -20,7 +20,7 @@ function App() {
   const [uri, setUri] = useState("");
   const [tokens, setTokens] = useState([]);
 
-  const contractAddress = "0x025BeB6082251daFb4cd3efE795A8A3683Ed1bd2";
+  const contractAddress = "0x1be224ed9fcaaaf3dd26d5819dd60ff0a642e580";
 
   const { ethereum } = window;
 
@@ -107,7 +107,7 @@ function App() {
       <div className='sticky-top'>
         <nav className="navbar navbar-expand-lg navbar-dark sticky-top bg-black">
           <div className="container">
-            <b className='text-success' style={{ fontSize: "2em" }}>NFT</b>
+            <b className="text" style={{ color: "#17B3C1", fontSize: "2em" }}>NFT</b>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
