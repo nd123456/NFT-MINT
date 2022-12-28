@@ -6,7 +6,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <p>Made By Namya Dimri for BOBDAO Internship 2022</p>
+            <p>Made for BOBDAO Internship 2022</p>
           </div>
         </div>
         <hr />
